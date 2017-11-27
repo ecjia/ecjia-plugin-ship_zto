@@ -86,6 +86,15 @@ class ship_zto extends shipping_abstract
     
         return $this->loadPluginData(RC_Plugin::plugin_dir_path(__FILE__) . '/languages/'.$locale.'/plugin.lang.php', $key, $default);
     }
+    
+    /**
+     * 返回快递单打印背景图片
+     * @return NULL|string
+     */
+    public function printBcakgroundImage()
+    {
+        return $this->config['print_bg'];
+    }
 
     /**
      * 获取插件配置信息
