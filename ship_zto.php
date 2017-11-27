@@ -77,6 +77,11 @@ class plugin_ship_zto {
 
 }
 
+Ecjia_PluginManager::extend('ship_zto', function() {
+    require_once RC_Plugin::plugin_dir_path(__FILE__) . 'ship_zto.class.php';
+    return new ship_zto();
+});
+
 RC_Plugin::register_activation_hook(__FILE__, array('plugin_ship_zto', 'install'));
 RC_Plugin::register_deactivation_hook(__FILE__, array('plugin_ship_zto', 'uninstall'));
 RC_Hook::add_filter('shipping_factory_adapter_instance', array( 'plugin_ship_zto', 'adapter_instance' ), 10, 2);
