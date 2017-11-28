@@ -46,8 +46,6 @@
 //
 defined('IN_ECJIA') or exit('No permission resources.');
 
-RC_Lang::load_plugin('ship_zto');
-
 return array(
     'shipping_code' => 'ship_zto',
 	'insure' 		=> '2%',		/* 支持保价 */
