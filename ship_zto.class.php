@@ -95,6 +95,15 @@ class ship_zto extends ShippingAbstract
     {
         
     }
+    
+    /**
+     * 返回快递单默认打印背景图片
+     * @return NULL|string
+     */
+    public function defaultPrintBackgroundImage()
+    {
+        return RC_Plugin::plugins_url($this->loadConfig('print_bg'), __FILE__);
+    }
 
     /**
      * 计算订单的配送费用的函数
