@@ -58,6 +58,9 @@ class plugin_ship_zto {
 
     public static function install() {
         $config = include(RC_Plugin::plugin_dir_path(__FILE__) . 'config.php');
+        $config['print_bg'] = Ecjia_PluginManager::driver('ship_zto')->defaultPrintBackgroundImage();
+        $config['config_label'] = Ecjia_PluginManager::driver('ship_zto')->getConfigLabel();
+        
         $param = array('file' => __FILE__, 'config' => $config);
         RC_Api::api('shipping', 'plugin_install', $param);
     }
