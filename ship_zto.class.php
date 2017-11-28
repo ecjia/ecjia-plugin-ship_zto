@@ -51,9 +51,9 @@
 
 defined('IN_ECJIA') or exit('No permission resources.');
 
-RC_Loader::load_app_class('shipping_abstract', 'shipping', false);
+use Ecjia\App\Shipping\ShippingAbstract;
 
-class ship_zto extends shipping_abstract
+class ship_zto extends ShippingAbstract
 {
     /**
      * 获取插件代号
@@ -96,17 +96,6 @@ class ship_zto extends shipping_abstract
         return $this->config['print_bg'];
     }
 
-    /**
-     * 获取插件配置信息
-     */
-    public function configure_config() {
-        $config = include(RC_Plugin::plugin_dir_path(__FILE__) . 'config.php');
-        if (is_array($config)) {
-            return $config;
-        }
-        return array();
-    }
-    
     /**
      * 计算订单的配送费用的函数
      *
