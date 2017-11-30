@@ -115,24 +115,24 @@ class ship_zto extends ShippingAbstract
      */
     public function calculate($goods_weight, $goods_amount, $goods_number)
     {
-        if ($this->configure['free_money'] > 0 && $goods_amount >= $this->configure['free_money'])
+        if ($this->config['free_money'] > 0 && $goods_amount >= $this->config['free_money'])
         {
             return 0;
         }
         else
         {
-            @$fee = $this->configure['base_fee'];
-            $this->configure['fee_compute_mode'] = !empty($this->configure['fee_compute_mode']) ? $this->configure['fee_compute_mode'] : 'by_weight';
+            @$fee = $this->config['base_fee'];
+            $this->config['fee_compute_mode'] = !empty($this->config['fee_compute_mode']) ? $this->config['fee_compute_mode'] : 'by_weight';
 
-            if ($this->configure['fee_compute_mode'] == 'by_number')
+            if ($this->config['fee_compute_mode'] == 'by_number')
             {
-                $fee = $goods_number * $this->configure['item_fee'];
+                $fee = $goods_number * $this->config['item_fee'];
             }
             else
             {
                 if ($goods_weight > 1)
                 {
-                    $fee += (ceil(($goods_weight - 1))) * $this->configure['step_fee'];
+                    $fee += (ceil(($goods_weight - 1))) * $this->config['step_fee'];
                 }
             }
 
