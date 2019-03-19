@@ -52,6 +52,7 @@ Author: ECJIA TEAM
 Version: 2.1.0
 Author URI: http://www.ecjia.com/
 Plugin App: shipping
+Text Domain: ship_zto
 */
 defined('IN_ECJIA') or exit('No permission resources.');
 class plugin_ship_zto {
