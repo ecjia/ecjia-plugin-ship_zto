@@ -109,7 +109,7 @@ return array(
         ),
 
         //模板文件
-        'shipping_print' 		=> 'templates/shipping_print.lbi',
+        'shipping_print' 		=> __DIR__ . '/templates/shipping_print.lbi.php',
     ),
 );
 
