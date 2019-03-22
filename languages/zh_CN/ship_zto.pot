@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 中通快递 2.30.0\n"
 "Report-Msgid-Bugs-To: https://www.ecjia.com/support/plugin/\n"
-"POT-Creation-Date: 2019-03-20 09:19:26+00:00\n"
+"POT-Creation-Date: 2019-03-22 03:53:36+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -49,94 +49,102 @@ msgid "--选择插入标签--"
 msgstr ""
 
 #: config.php:85
-msgid "网店-国家"
-msgstr ""
-
-#: config.php:86
-msgid "网店-省份"
-msgstr ""
-
-#: config.php:87
-msgid "网店-城市"
-msgstr ""
-
-#: config.php:88
 msgid "网店-名称"
 msgstr ""
 
-#: config.php:89
-msgid "网店-区/县"
-msgstr ""
-
-#: config.php:90
+#: config.php:86
 msgid "网店-联系电话"
 msgstr ""
 
+#: config.php:87
+msgid "网店-国家"
+msgstr ""
+
+#: config.php:88
+msgid "网店-省份"
+msgstr ""
+
+#: config.php:89
+msgid "网店-城市"
+msgstr ""
+
+#: config.php:90
+msgid "网店-区/县"
+msgstr ""
+
 #: config.php:91
-msgid "网店-地址"
+msgid "网店-街道"
 msgstr ""
 
 #: config.php:92
-msgid "收件人-国家"
-msgstr ""
-
-#: config.php:93
-msgid "收件人-省份"
+msgid "网店-地址"
 msgstr ""
 
 #: config.php:94
-msgid "收件人-城市"
-msgstr ""
-
-#: config.php:95
-msgid "收件人-区/县"
-msgstr ""
-
-#: config.php:96
-msgid "收件人-电话"
-msgstr ""
-
-#: config.php:97
-msgid "收件人-手机"
-msgstr ""
-
-#: config.php:98
-msgid "收件人-邮编"
-msgstr ""
-
-#: config.php:99
-msgid "收件人-详细地址"
-msgstr ""
-
-#: config.php:100
 msgid "收件人-姓名"
 msgstr ""
 
+#: config.php:95
+msgid "收件人-电话"
+msgstr ""
+
+#: config.php:96
+msgid "收件人-手机"
+msgstr ""
+
+#: config.php:97
+msgid "收件人-邮编"
+msgstr ""
+
+#: config.php:98
+msgid "收件人-国家"
+msgstr ""
+
+#: config.php:99
+msgid "收件人-省份"
+msgstr ""
+
+#: config.php:100
+msgid "收件人-城市"
+msgstr ""
+
 #: config.php:101
-msgid "年-当日日期"
+msgid "收件人-区/县"
 msgstr ""
 
 #: config.php:102
-msgid "月-当日日期"
+msgid "收件人-街道"
 msgstr ""
 
 #: config.php:103
-msgid "日-当日日期"
-msgstr ""
-
-#: config.php:104
-msgid "订单号-订单"
+msgid "收件人-详细地址"
 msgstr ""
 
 #: config.php:105
-msgid "备注-订单"
+msgid "年-当日日期"
 msgstr ""
 
 #: config.php:106
-msgid "送货时间-订单"
+msgid "月-当日日期"
 msgstr ""
 
 #: config.php:107
+msgid "日-当日日期"
+msgstr ""
+
+#: config.php:109
+msgid "订单号-订单"
+msgstr ""
+
+#: config.php:110
+msgid "备注-订单"
+msgstr ""
+
+#: config.php:111
+msgid "送货时间-订单"
+msgstr ""
+
+#: config.php:113
 msgid "√-对号"
 msgstr ""
 
