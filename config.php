@@ -52,27 +52,31 @@ return array(
 	'cod' 			=> true, 		/* 配送方式是否支持货到付款 */
     'print_support' => true,
 	'print_model'	=> 2,			/* 模式编辑器 */
-	'print_bg'		=> 'images/dly_zto.jpg',			/* 打印单背景 */
-// 	'config_lable'	=> 't_shop_province,shop_province,116,30,296.55,117.2,b_shop_province||,||t_customer_province,customer_province,114,32,649.95,114.3,b_customer_province||,||t_shop_address,shop_address,260,57,151.75,152.05,b_shop_address||,||t_shop_name,shop_name,259,28,152.65,212.4,b_shop_name||,||t_shop_tel,shop_tel,131,37,138.65,246.5,b_shop_tel||,||t_customer_post,customer_post,104,39,659.2,242.2,b_customer_post||,||t_customer_tel,customer_tel,158,22,461.9,241.9,b_customer_tel||,||t_customer_mobel,customer_mobel,159,21,463.25,265.4,b_customer_mobel||,||t_customer_name,customer_name,109,32,498.9,115.8,b_customer_name||,||t_customer_address,customer_address,264,58,499.6,150.1,b_customer_address||,||t_months,months,35,23,135.85,392.8,b_months||,||t_day,day,24,23,180.1,392.8,b_day||,||',			/* 打印快递单标签位置信息 */
+	'print_bg'		=> 'images/dly_zto.jpg', /* 打印单背景 */
 		
 	/**
 	 * 打印快递单标签位置信息
 	 * 使用 ||,|| 合并连接
 	 */
 	'config_lable'  => array(
-		't_shop_province,shop_province,116,30,296.55,117.2,b_shop_province',
-		't_customer_province,customer_province,114,32,649.95,114.3,b_customer_province',
-		't_shop_address,shop_address,260,57,151.75,152.05,b_shop_address',
-		't_shop_name,shop_name,259,28,152.65,212.4,b_shop_name',
-		't_shop_tel,shop_tel,131,37,138.65,246.5,b_shop_tel',
-		't_customer_post,customer_post,104,39,659.2,242.2,b_customer_post',
-		't_customer_tel,customer_tel,158,22,461.9,241.9,b_customer_tel',
-		't_customer_mobel,customer_mobel,159,21,463.25,265.4,b_customer_mobel',
-		't_customer_name,customer_name,109,32,498.9,115.8,b_customer_name',
-		't_customer_address,customer_address,264,58,499.6,150.1,b_customer_address',
-		't_months,months,35,23,135.85,392.8,b_months',
-		't_day,day,24,23,180.1,392.8,b_day',
-		''
+		't_shop_province,shop_province,81,34,150,158,b_shop_province',
+		't_customer_province,customer_province,83,38,513,160,b_customer_province',
+		't_shop_address,shop_address,226,29,193,194,b_shop_address',
+		't_shop_name,shop_name,281,28,138,224,b_shop_name',
+		't_shop_tel,shop_tel,124,28,147,270,b_shop_tel',
+		't_customer_post,customer_post,104,27,681,272,b_customer_post',
+		't_customer_tel,customer_tel,150,28,487,240,b_customer_tel',
+		't_customer_mobel,customer_mobel,152,27,486,271,b_customer_mobel',
+		't_customer_name,customer_name,105,32,518,128,b_customer_name',
+		't_customer_address,customer_address,244,37,539,199,b_customer_address',
+		't_months,months,35,23,131,409,b_months',
+		't_day,day,24,23,178,409,b_day',
+		't_shop_street,shop_street,119,28,74,195,b_shop_street',
+		't_shop_district,shop_district,104,33,315,159,b_shop_district',
+		't_shop_city,shop_city,82,33,232,159,b_shop_city',
+		't_customer_street,customer_street,106,38,432,198,b_customer_street',
+		't_customer_city,customer_city,80,38,596,160,b_customer_city',
+		't_customer_district,customer_district,105,40,677,160,b_customer_district'
 	),
 		
 	'forms' => array(
